@@ -35,6 +35,12 @@ header .logo img {
     border-radius: 60px;
     margin-left: 70px;
 }
+.topo ,content {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
 
 .content {
     background-color: #af1a1a;
@@ -76,3 +82,12 @@ button{
     
 }
 
+.Bandeira {
+margin-top: 200px;
+width: 500px;
+}
+
+.tudo, .Bandeira{
+    justify-content: center;
+
+}
