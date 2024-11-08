@@ -26,6 +26,7 @@ header nav ul li a {
     color: #af1a1a;
     font-weight: inherit;
     font-size: 24px;
+    
 }
 
 header .logo img {
@@ -37,9 +38,9 @@ header .logo img {
 }
 .topo ,content {
     display: flex;
-    justify-content: space-evenly;
     text-align: center;
     align-items: center;
+    padding-left: 100px;
 }
 
 .content {
@@ -58,7 +59,7 @@ header .logo img {
 
 
 h1{
-    margin: 154px;
+    margin-block: 154px;
     font-size: 100px;
     color: #af1a1a;
 }
@@ -69,22 +70,23 @@ h2{
     margin-top: 50px;
 }
 
-button{
+.description a{
     border: 1px solid black;
     margin: 0px 200px 22px 60px;
     font-size: 20px;
-    width: 300px;
+    width: 400px;
     height: 70px;
     background-color: #fd9f9f;
     color: #cc0b0b;
     border-radius: 40px;
     cursor: pointer;
+    padding: 20px 100px 20px 100px;
     
 }
 
 .Bandeira {
-margin-top: 200px;
 width: 500px;
+margin-top: -251px;
 }
 
 .tudo, .Bandeira{
