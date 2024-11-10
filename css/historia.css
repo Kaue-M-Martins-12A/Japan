@@ -1,1 +1,73 @@
 @import url(./global.css);
+
+.topo ,content {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 6.25rem;
+}
+
+.content {
+    background-color: #b41d2b;
+    color: #FFFFFF;
+    display: flex;
+    border-radius: 4.375rem 4.375rem 0rem 0rem;
+}
+
+.description p {
+    width: 49rem;
+    margin: 2.875rem 12.5rem 4.0625rem 8.25rem;
+    font-size: 1.25rem;
+}
+
+
+
+
+h1{
+    margin-block: 8.625rem;
+    font-size: 8.25rem;
+    color: #b41d2b;
+}
+
+h2{
+    font-size: 1.5625rem;
+    margin-left: 11.75rem ;
+    margin-top: 2.2rem;
+}
+
+.description {
+    height: calc(49.1vh - 100px);
+}
+
+.description nav ul li a{
+    border: 0.0625rem solid white;
+    margin:  0rem 12.5rem 1.375rem 7.75rem;
+    font-size: 1.25rem;
+    width: 25rem;
+    height: 4.375rem;
+    background-color: #f4929a;
+    color: #b41d2b;
+    border-radius: 2.5rem;
+    cursor: pointer;
+    padding: 1.25rem 6.25rem 1.25rem 6.25rem;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.Bandeira {
+width: 700px;
+margin-top: -370px;
+align-items: center;
+}
+
+.description, .Bandeira {
+    margin-left: -30px;
+}
+
+body {
+    background-image: url('../');
+    background-size: cover; /* A imagem cobre toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+}

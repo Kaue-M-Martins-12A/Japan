@@ -10,7 +10,6 @@ header {
     align-items: center;
     padding: 20px;
     background-color: #FFFFFF;
-    border: 2px solid black;
 }
 
 header nav ul {
@@ -37,15 +36,11 @@ header .logo img {
     margin-left: 70px;
 }
 
-a:focus, a:active, a:visited {
-    font-weight: bold;
-}
-
-
 
 header nav ul li a:hover {
     color: crimson;
     transition-duration: 0.2s;
+    font-weight: bold;
 }
 
 .active {

@@ -80,12 +80,13 @@ h2{
     font-size: 1.25rem;
     width: 25rem;
     height: 4.375rem;
-    background-color: #fd9f9f;
+    background-color: #f4929a;
     color: #b41d2b;
     border-radius: 2.5rem;
     cursor: pointer;
     padding: 1.25rem 6.25rem 1.25rem 6.25rem;
     text-decoration: none;
+    font-weight: bold;
     
 }
 
@@ -106,13 +107,12 @@ body {
     background-repeat: no-repeat; /* Evita a repetição da imagem */
 }
 
-a:focus, a:active, a:visited {
-    font-weight: bold;
-}
-
-
-
 header nav ul li a:hover {
     color: crimson;
     transition-duration: 0.2s;
+    font-weight: bold;
+}
+
+.active {
+    font-weight: bold;
 }

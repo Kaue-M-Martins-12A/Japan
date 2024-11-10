@@ -1,0 +1,9 @@
+@import url(./global.css);
+
+header{
+    height: 10rem;
+}
+
+.tudo {
+    background-color: #b41d2b;
+}
