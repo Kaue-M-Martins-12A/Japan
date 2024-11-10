@@ -8,88 +8,111 @@
 header {
     display: flex;
     align-items: center;
-    padding: 20px;
-    background-color: #FFFFFF;
-    border: 2px solid black;
+    padding: 1.25rem;
+    ;
 }
 
 header nav ul {
     display: flex;
-    gap: 30px;
+    gap: 1.875rem;
     list-style: none;
-    margin-left: 500px;
+    margin-left: 31rem;
     justify-content: space-evenly;
 }
 
 header nav ul li a {
     text-decoration: none;
-    color: #af1a1a;
+    color: #b41d2b;
     font-weight: inherit;
-    font-size: 24px;
+    font-size: 1.5rem;
     
 }
 
 header .logo img {
-    width: 140px;
+    width: 8.75rem;
     height: auto;
-    border: 1px solid black;
-    border-radius: 60px;
-    margin-left: 70px;
+    border: 0.0625rem solid black;
+    border-radius: 3.75rem;
+    margin-left: 4.375rem;
 }
 .topo ,content {
     display: flex;
     text-align: center;
     align-items: center;
-    padding-left: 100px;
+    padding-left: 6.25rem;
 }
 
 .content {
-    background-color: #af1a1a;
+    background-color: #b41d2b;
     color: #FFFFFF;
     display: flex;
-    border-radius: 70px 70px 0px 0px;
+    border-radius: 4.375rem 4.375rem 0rem 0rem;
 }
 
 .description p {
-    width: 800px;
-    margin: 46px 200px 65px 100px;
-    font-size: 20px;
+    width: 49rem;
+    margin: 2.875rem 12.5rem 4.0625rem 8.25rem;
+    font-size: 1.25rem;
 }
+
 
 
 
 h1{
-    margin-block: 154px;
-    font-size: 100px;
-    color: #af1a1a;
+    margin-block: 8.625rem;
+    font-size: 8.25rem;
+    color: #b41d2b;
 }
 
 h2{
-    font-size: 25px;
-    margin-left: 140px ;
-    margin-top: 50px;
+    font-size: 1.5625rem;
+    margin-left: 11.75rem ;
+    margin-top: 2.2rem;
 }
 
-.description a{
-    border: 1px solid black;
-    margin: 0px 200px 22px 60px;
-    font-size: 20px;
-    width: 400px;
-    height: 70px;
+.description {
+    height: calc(49.1vh - 100px);
+}
+
+.description nav ul li a{
+    border: 0.0625rem solid white;
+    margin:  0rem 12.5rem 1.375rem 7.75rem;
+    font-size: 1.25rem;
+    width: 25rem;
+    height: 4.375rem;
     background-color: #fd9f9f;
-    color: #cc0b0b;
-    border-radius: 40px;
+    color: #b41d2b;
+    border-radius: 2.5rem;
     cursor: pointer;
-    padding: 20px 100px 20px 100px;
+    padding: 1.25rem 6.25rem 1.25rem 6.25rem;
+    text-decoration: none;
     
 }
 
 .Bandeira {
-width: 500px;
-margin-top: -251px;
+width: 700px;
+margin-top: -370px;
+align-items: center;
 }
 
-.tudo, .Bandeira{
-    justify-content: center;
+.description, .Bandeira {
+    margin-left: -30px;
+}
 
+body {
+    background-image: url('../');
+    background-size: cover; /* A imagem cobre toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+}
+
+a:focus, a:active, a:visited {
+    font-weight: bold;
+}
+
+
+
+header nav ul li a:hover {
+    color: crimson;
+    transition-duration: 0.2s;
 }
