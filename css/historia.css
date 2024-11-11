@@ -12,14 +12,32 @@
     color: #FFFFFF;
     display: flex;
     border-radius: 4.375rem 4.375rem 0rem 0rem;
+    height: 100rem;
 }
 
 .description p {
     width: 49rem;
     margin: 2.875rem 12.5rem 4.0625rem 8.25rem;
     font-size: 1.25rem;
+    padding-bottom: 2.5rem;
 }
 
+.kamikaze {
+    width: 300px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 60px;
+    margin-left: 70px;
+}
+
+.medieval{
+    width: 600px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 60px;
+    margin-left: 70px;
+    margin-right: 100px;
+}
 
 
 
@@ -70,4 +88,9 @@ body {
     background-size: cover; /* A imagem cobre toda a área */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita a repetição da imagem */
+}
+
+.flag {
+    display: flex;
+    flex-direction: column;
 }
