@@ -8,7 +8,7 @@ header{
     border-radius: 4.375rem 4.375rem 0rem 0rem;
     background-color: #b41d2b;
     display: flex;
- 
+    height: calc( 86.9vh - 6.25rem);
 }
 
 .description p {
