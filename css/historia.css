@@ -12,7 +12,7 @@
     color: #FFFFFF;
     display: flex;
     border-radius: 4.375rem 4.375rem 0rem 0rem;
-    height: 100rem;
+    height: 111rem;
 }
 
 .description p {
@@ -23,11 +23,13 @@
 }
 
 .kamikaze {
-    width: 300px;
+    width: 600px;
     height: auto;
     border: 1px solid black;
     border-radius: 60px;
     margin-left: 70px;
+    margin-top: 18rem;
+    
 }
 
 .medieval{
@@ -37,6 +39,7 @@
     border-radius: 60px;
     margin-left: 70px;
     margin-right: 100px;
+    margin-top: 18px;
 }
 
 
@@ -77,6 +80,7 @@ h2{
 width: 700px;
 margin-top: -370px;
 align-items: center;
+margin-bottom: 6px;
 }
 
 .description, .Bandeira {

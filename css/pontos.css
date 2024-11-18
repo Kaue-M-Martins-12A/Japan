@@ -11,6 +11,10 @@ header{
  
 }
 
+.description .pontos, ul li{
+    list-style: none;
+}
+
 .description .pontos, ul li h2 {
     margin-left: 6rem;
     width: 40rem;
