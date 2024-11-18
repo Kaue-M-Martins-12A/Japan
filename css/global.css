@@ -8,15 +8,15 @@
 header {
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 1.25rem; /* 20px */
     background-color: #FFFFFF;
 }
 
 header nav ul {
     display: flex;
-    gap: 30px;
+    gap: 1.875rem; /* 30px */
     list-style: none;
-    margin-left: 500px;
+    margin-left: 31.25rem; /* 500px */
     justify-content: space-evenly;
 }
 
@@ -24,18 +24,16 @@ header nav ul li a {
     text-decoration: none;
     color: #af1a1a;
     font-weight: inherit;
-    font-size: 24px;
-    
+    font-size: 1.5rem; /* 24px */
 }
 
 header .logo img {
-    width: 140px;
+    width: 8.75rem; /* 140px */
     height: auto;
-    border: 1px solid black;
-    border-radius: 60px;
-    margin-left: 70px;
+    border: 0.0625rem solid black; /* 1px */
+    border-radius: 3.75rem; /* 60px */
+    margin-left: 4.375rem; /* 70px */
 }
-
 
 header nav ul li a:hover {
     color: crimson;

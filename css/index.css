@@ -91,14 +91,15 @@ h2{
 }
 
 .Bandeira {
-width: 700px;
-margin-top: -370px;
-align-items: center;
+    width: 43.75rem; /* 700px */
+    margin-top: -23.125rem; /* -370px */
+    align-items: center;
 }
 
 .description, .Bandeira {
-    margin-left: -30px;
+    margin-left: -1.875rem; /* -30px */
 }
+
 
 body {
     background-image: url('../');
